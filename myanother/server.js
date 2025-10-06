@@ -81,7 +81,7 @@ app.put("/api/users/:id",(req,res)=>{
     mockUsers[findUserIndex] = {
         id:parsedId, ...body
     }
-    return res.sendStatus(200);
+    return res.sendStatus(200); ss
 });
 app.post("/api/users",(request,response) =>{
     console.log(request.body);
